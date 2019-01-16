@@ -1,0 +1,66 @@
+
+HTML{background-color: #CFCFCD;}
+h1  {
+  color: #e5eeeb;
+  background-color: rgb(3, 35, 39);
+  padding: 10px;
+  border-radius: 10px 10px 0px 0px;
+  border: solid #000000 2px;
+  margin: 4px;
+  font: italic 4rem 'Lobster', cursive;
+  text-align: center;
+}
+header {
+  background-color: rgb(10, 93, 104);
+  padding: 10px;
+  border-radius: 0px 0px 10px 10px;
+  border: solid #000000 2px;
+  margin: 4px;
+  /* width: 43rem; */
+}
+p {
+  color: #472836;
+  font-family: calibri;
+  font-size: 120%;
+  text-align: center;
+}
+.title-graphics {
+  display: block;
+  margin: 4px;
+}
+.Island-Girl-Graphic {
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px black;
+  height: 122px;
+  margin: 0px 120px 0px 1px;
+}
+.Island-Girl-Teen {
+  border-radius: 15px;
+  box-shadow: 4px 4px 4px black;
+  display: inline-block;
+  border:solid black 4px;
+  height: 200px;
+  margin: 0px 0px 0px 0px;
+  }
+.Sunny-Palm-Trees-Graphic {
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px black;
+  height: 122px;
+  margin: 0px 0px 80px 120px;
+}
+.underline {
+  display: block;
+  height: 1px;
+  border-top: solid rgb(2, 2, 36) 3px;
+  border-bottom: solid rgb(2, 2, 36) 5px;
+}
+.childhood {
+  display: inline-block;
+  text-align: left;
+  height: 5px;
+  box-sizing: border-box;
+  width: 40%;
+  float: right;
+}
