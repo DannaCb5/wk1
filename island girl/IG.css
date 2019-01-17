@@ -3,30 +3,43 @@ HTML{background-color: #CFCFCD;}
 h1  {
   color: #e5eeeb;
   background-color: rgb(3, 35, 39);
-  padding: 10px;
   border-radius: 10px 10px 0px 0px;
+  padding: 10px 220px;
   border: solid #000000 2px;
+  display: inline-block;
   margin: 4px;
   font: italic 4rem 'Lobster', cursive;
   text-align: center;
 }
 header {
-  background-color: rgb(10, 93, 104);
+  background-color: white;
+  position: relative;
   padding: 10px;
-  border-radius: 0px 0px 10px 10px;
   border: solid #000000 2px;
   margin: 4px;
-  /* width: 43rem; */
+ overflow: hidden;  
+ border-radius: 0px 0px 10px 10px;
 }
-p {
-  color: #472836;
-  font-family: calibri;
-  font-size: 120%;
-  text-align: center;
+.background img {
+  position: absolute;
+  top: -50%;
+  opacity: 0.5;
+  width: 80%;
+
+}
+.underline {
+  display: inline-block;
+  height: 1px;
+  padding: 0px 358px;
+  border-top: solid rgb(2, 2, 36) 3px;
+  border-bottom: solid rgb(2, 2, 36) 5px;
 }
 .title-graphics {
-  display: block;
+  display: inline-block;
   margin: 4px;
+}
+.headerImages img {
+  position: relative;
 }
 .Island-Girl-Graphic {
   display: inline-block;
@@ -50,17 +63,21 @@ p {
   height: 122px;
   margin: 0px 0px 80px 120px;
 }
-.underline {
-  display: block;
-  height: 1px;
-  border-top: solid rgb(2, 2, 36) 3px;
-  border-bottom: solid rgb(2, 2, 36) 5px;
+p {
+  color: #472836;
+  background-color:  whitesmoke;
+  border-radius: 5px;
+  font-family: calibri;
+  display: inline-block;
+  margin: 10px;
+  font-size: 100%;
+  text-align: center;
 }
 .childhood {
-  display: inline-block;
-  text-align: left;
-  height: 5px;
+  height: auto;
+  padding:5px;
   box-sizing: border-box;
   width: 40%;
-  float: right;
+  text-align: left;
+  float: left 200px;
 }
