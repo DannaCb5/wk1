@@ -66,18 +66,45 @@ header {
 p {
   color: #472836;
   background-color:  whitesmoke;
+  padding: 5px;
   border-radius: 5px;
   font-family: calibri;
   display: inline-block;
   margin: 10px;
   font-size: 100%;
-  text-align: center;
 }
 .childhood {
+  float: left;
+  position: relative;
   height: auto;
   padding:5px;
   box-sizing: border-box;
-  width: 40%;
+  width: 53%;
   text-align: left;
-  float: left 200px;
+}
+.Ocean {
+  float: right;
+  height: auto;
+  padding: 5px;
+  box-sizing: border-box;
+  width: 41%;
+  /* margin: 0px 50px 100px 70px; */
+  text-align: left; 
+}
+.AuntieJustine {
+  position: absolute;
+  bottom: -115px;
+  right: -14px;
+  display: block;
+  height: 150px;
+  /* margin: 0px 0px -100px 200px; */
+}
+
+.Beachwithhills {
+  display: block;
+  position: absolute;
+  bottom: -154px;
+  right: -4px;
+  height: 150px;
+  /* margin: 0px -10px -100px 300px; */
 }
